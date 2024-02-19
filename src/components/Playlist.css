@@ -1,0 +1,47 @@
+
+.playlist-container {
+    background-color: #292a30;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0px 10px rgba(255, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .playlist-container:hover{
+    box-shadow: 0 0px 30px rgba(255, 0, 0, 0.5);
+  }
+  
+  .playlist-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  h2{
+    color: white;
+  }
+  
+  .playlist-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    color: white;
+    background-color: #46484f;
+    border-radius: 4px;
+    
+  }
+  
+  .playlist-item button {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .playlist-item button:hover {
+    background-color: red
+    ;
+  }
+  

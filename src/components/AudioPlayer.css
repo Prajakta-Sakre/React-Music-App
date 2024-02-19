@@ -1,0 +1,36 @@
+/* src/components/AudioPlayer.css */
+.audio-player-container {
+    margin-top: 20px;
+  }
+  
+  .audio-player {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .audio-player::-webkit-media-controls-panel {
+    border-radius: 8px;
+    background-color: #f0f0f0;
+  }
+  
+  .audio-player::-webkit-media-controls-play-button,
+  .audio-player::-webkit-media-controls-volume-slider {
+    display: none;
+  }
+  /* src/components/AudioPlayer.css */
+.audio-player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .audio-player {
+    width: 100%;
+    max-width: 400px; /* Set a maximum width if desired */
+  }
+  

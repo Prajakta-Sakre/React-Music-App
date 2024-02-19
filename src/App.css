@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #1d1e24;
+  
+}
+
+@media (min-width: 576px) {
+  .audio-player-container {
+    height: auto;
+  }
+
+  .audio-player {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .audio-player {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .audio-player {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .audio-player {
+    width: 600px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .small {
+    width: 600px; 
+  }
+}
